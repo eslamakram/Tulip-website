@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var getOrder = prompt("Do you want to buy a bouquet of tulips(yes/no)?")
 console.log(getOrder)
 if  (getOrder == "yes"){
@@ -22,6 +23,14 @@ switch (type) {
 
   document.writeln
   document.write ("<h4>" +"customer Name is  "+ customerName+ "</h4>")
+=======
+var getOrder = prompt("Do you want to buy a bouquet of tulips?")
+console.log(getOrder)
+if  (getOrder == "yes" |  getOrder == "true" ){
+  var customerName = prompt ("Kindly Could you give us your name and which type you want to buy?")
+  console.log(customerName)
+  document.write (customerName)
+>>>>>>> 0a6e9445fc974d8faeb9c3f6cd0086164a0711c6
 }
 else {
   alert(" I hope see you again here!")
