@@ -42,7 +42,7 @@ a {
 
 .horizantalDiv {
   display: inline-block;
-  float: left;
+  /* float: left; */
   height: 200px;
   width: 250;
   background-color: rgb(239, 245, 247);
@@ -60,12 +60,12 @@ a {
 }
 
 footer {
-  height: 100px; 
-  width: 150px;
+  /* height: 100px;  */
+  width: 200px;
   margin-bottom: 10px;
   margin-top: 200px;
   margin-inline-start: 200px;
-  margin-block-end: 250px;
+  margin-block-end: 20px;
   margin-left: 100px;
   margin-right: 150px;
 }
