@@ -2,8 +2,12 @@
 var getOrder = prompt("Do you want to buy a bouquet of tulips(yes/no)?")
 // console.log(getOrder)
 if  (getOrder == "yes"){
+<<<<<<< HEAD
   // var type, times = orderInfo();
   var customerName = prompt ("Kindly Could you give us your name?")
+=======
+    var customerName = prompt ("Kindly Could you give us your name?")
+>>>>>>> f114c8b12238d1c5eb0ea91d775c77d6b8daf863
 
 var type = prompt (" which type you want to buy (Darwin/Triumph/Double)?");
 
@@ -12,8 +16,11 @@ while(type != "Darwin " && type != "Triumph " && type != "Double "){
 }
 
 var times= prompt("how many time you wish to see your Tuleep on my page ")
+<<<<<<< HEAD
 document.write ("<h4>" +"customer Name is  "+ customerName+ "</h4>")
   myFunction(type,times);
+=======
+>>>>>>> f114c8b12238d1c5eb0ea91d775c77d6b8daf863
 
 switch (type) {
   case 'Darwin ':
@@ -36,16 +43,31 @@ switch (type) {
   default:
     console.log(`please tell us what is the type you want.`);
 } // end switch
+<<<<<<< HEAD
+=======
+
+document.write ("<h4>" +"customer Name is  "+ customerName+ "</h4>")
+  myFunction(type,times);
+>>>>>>> f114c8b12238d1c5eb0ea91d775c77d6b8daf863
 
 } // end if true
 else {
   alert(" I hope see you again here!")
 } // end if false 
 
+<<<<<<< HEAD
 
 //////////////////////////////////////
 
 function myFunction(type,times){
+=======
+//  add fun
+
+
+
+ function myFunction(type,times){
+
+>>>>>>> f114c8b12238d1c5eb0ea91d775c77d6b8daf863
 // type # 1
    if( type == "Darwin " ) {
 for(var i = 0 ; i < times; i++) {
@@ -67,6 +89,7 @@ document.write("<div>" + "<h3>" + type +"</h3>" + "<img src='https://www.whitefl
 } // end for loop
  } // end of type 3
 
+<<<<<<< HEAD
 } // end of function
 
 ////////////////////////////////////////////////////////////////
@@ -79,5 +102,9 @@ document.write("<div>" + "<h3>" + type +"</h3>" + "<img src='https://www.whitefl
  
 
 
+=======
+
+} // end of function
+>>>>>>> f114c8b12238d1c5eb0ea91d775c77d6b8daf863
 
 
